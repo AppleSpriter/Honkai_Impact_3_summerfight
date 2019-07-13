@@ -21,6 +21,7 @@ if __name__ == "__main__":
                 tskill = tskill + 1
             else:
                 klife = klife - random.randint(1,16) * 4
+                tskill = 1
 
             #琪亚娜后手攻击
             if(kskill<3):
