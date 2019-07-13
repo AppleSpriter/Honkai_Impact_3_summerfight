@@ -24,8 +24,9 @@ if __name__ == "__main__":
                 tskill = tskill + 1
             else:
                 # 板鸭1技能闪避判定
-                if(random.randint(1,100)>15):
-                    blife = blife - random.randint(1,16) * 4
+                for tmp in range(1,4):
+                    if(random.randint(1,100)>15):
+                        blife = blife - random.randint(1,16)
                 tskill = 1
 
             # 板鸭后手攻击

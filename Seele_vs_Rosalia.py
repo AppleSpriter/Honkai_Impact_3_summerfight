@@ -38,18 +38,17 @@ if __name__ == "__main__":
                 sskill = 1
 
             # 萝莎莉娅后手攻击
-            if(tired == 0):
+            if(tired < 1):
                 if(rskill2<3):
                     slife = slife - (ratk - sdef) * rskill1
                     rskill2 = rskill2 + 1
                 else:
                     slife = slife - (15 - sdef) * 10 * rskill1
                     rskill2 = 1
-                    tired = 1     # 下回合跳过回合
+                    tired = 2     # 下回合跳过回合
             
             # 萝莎莉娅疲劳重置
-            if(tired == 1):
-                tired = 0
+            tired = tired - 1
 
             # 萝莎莉娅1技能触发，伤害1-3增加 8-10减少
             tmp = random.randint(1,10)
