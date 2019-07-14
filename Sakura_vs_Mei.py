@@ -34,6 +34,7 @@ if __name__ == "__main__":
                 # 八重樱被动挂点燃
                 if(random.randint(1,5)==1):
                     sskill = 3
+
             # 触发芽衣必杀，八重樱无法发动技能，必杀重置
             else:
                 mlife = mlife - (satk - mdef)
@@ -64,11 +65,11 @@ if __name__ == "__main__":
         mskill = 0
 
 
-    print("八重樱赢的概率为")
-    print(SakuraWin/(SakuraWin + MeiWin))
+    print("八重樱赢的场次为")
+    print("%d场"%(SakuraWin/(SakuraWin + MeiWin)*1000000))
 
-    print("芽衣赢的概率为")
-    print(MeiWin/(SakuraWin + MeiWin))
+    print("芽衣赢的场次为")
+    print("%d场"%(MeiWin/(SakuraWin + MeiWin)*1000000))
 
     print("投票八重樱赔率期望")
     print((SakuraWin/(SakuraWin + MeiWin))*2.2)
