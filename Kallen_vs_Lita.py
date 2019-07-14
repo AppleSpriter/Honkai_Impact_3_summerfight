@@ -82,9 +82,9 @@ if __name__ == "__main__":
     print("%d场"%(LitaWin/(KallenWin + LitaWin)*sum))
 
     print("投票卡莲赔率期望")
-    print((KallenWin/(KallenWin + LitaWin))*1)
+    print((KallenWin/(KallenWin + LitaWin))*2)
 
     print("投票丽塔赔率期望")
-    print((LitaWin/(KallenWin + LitaWin))*1)
+    print((LitaWin/(KallenWin + LitaWin))*4.7)
 
     
