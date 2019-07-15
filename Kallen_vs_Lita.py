@@ -24,6 +24,8 @@ if __name__ == "__main__":
                     break
                 else:
                     llife = llife - (katk - ldef)
+                    if(llife <= 0):
+                        break
                     # 卡莲必杀技判定
                     if(random.randint(1,10)<4):
                         kskill = 2
