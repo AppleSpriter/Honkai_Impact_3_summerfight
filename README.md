@@ -9,13 +9,15 @@
 芽衣 | Mei
 布洛尼亚 | Bronya
 姬子 | Himeko
-八重樱 | Sakura
-卡莲 | Kallen
+八重樱&卡莲 | SakuraKallen 
 希儿 | Seele
 丽塔 | Lita
 浮华 | Fuhua
-罗莎莉亚 | Rosalia
+罗莎莉亚&莉莉娅 | RosaliaLilia 
 莉莉娅 | Lilia
+渡鸦 | Ravens 
+幽兰黛尔&屎蛋 | Durandal 
+ | 
 
 ## 发现逻辑问题
 如果你发现某段战斗中有逻辑问题，欢迎直接提交issue或者私信B站：NewGame八神光
