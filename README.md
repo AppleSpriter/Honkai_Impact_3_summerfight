@@ -1,13 +1,15 @@
 # Honkai_Impact_3_summerfight
 这是崩坏3夏日大作战的一个作战模拟，已于B站发布[av58904076](https://www.bilibili.com/video/av58904076/)
 
+一年过去了，加上夏日偶像武斗会的内容
+
 ## 人物姓名简称
 
 中文 | 英文
 ---- | -----
 琪亚娜 | Kiana
 芽衣 | Mei
-布洛尼亚 | Bronya
+布洛妮娅 | Bronya
 姬子 | Himeko
 八重樱&卡莲 | SakuraKallen 
 希儿 | Seele
