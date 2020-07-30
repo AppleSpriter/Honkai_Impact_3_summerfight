@@ -27,6 +27,9 @@ if __name__ == "__main__":
                 Seeleatk -= 10
                 Seeledef += 5
                 Seelelife += random.randint(1, 15)
+                # 血量上限
+                if Seelelife > 100:
+                    Seelelife = 100
                 Seeleskill = 1
 
             # 攻击判定
@@ -41,8 +44,7 @@ if __name__ == "__main__":
                 Bronyaskill += 1
                 # 天使重构
                 if random.randint(1, 100) <= 25:
-                    Seelelife = Seelelife - \
-                                        4 * (12 - Seeledef)
+                    Seelelife = Seelelife - 4 * max((12 - Seeledef), 0)
                 else:
                     Seelelife = Seelelife - \
                                         (Bronyaatk - Seeledef)

@@ -20,7 +20,8 @@ if __name__ == "__main__":
             # 琪亚娜先手攻击
             # 吃我一矛
             if Kianaskill == 2:
-                RosaliaLilialife = RosaliaLilialife - (RosaliaLiliadef + Kianaatk)
+                RosaliaLilialife = RosaliaLilialife - \
+                                (RosaliaLiliadef + Kianaatk)
                 Kianaskill = 1
             #     print("吃我一矛")
                 # 音浪太强
@@ -31,7 +32,8 @@ if __name__ == "__main__":
             elif Kianaskill == 0:
                 Kianaskill = 2
             elif Kianaskill == 1:
-                RosaliaLilialife = RosaliaLilialife - (Kianaatk - RosaliaLiliadef)
+                RosaliaLilialife = RosaliaLilialife - \
+                                (Kianaatk - RosaliaLiliadef)
                 Kianaskill += 1
 
             # print("萝莉姐妹生命：%d" %(RosaliaLilialife))
@@ -78,7 +80,7 @@ if __name__ == "__main__":
           % (RosaliaLiliaWin / (KianaWin + RosaliaLiliaWin), RosaliaLiliaWin))
 
     print("投票琪亚娜赔率期望")
-    print((KianaWin / (KianaWin + RosaliaLiliaWin))*3.2)
+    print((KianaWin / (KianaWin + RosaliaLiliaWin))*2.4)
 
     print("投票罗莎莉亚&莉莉娅赔率期望")
-    print((RosaliaLiliaWin / (KianaWin + RosaliaLiliaWin))*1.9)
+    print((RosaliaLiliaWin / (KianaWin + RosaliaLiliaWin))*2.4)
