@@ -66,11 +66,11 @@ if __name__ == "__main__":
         Durandalskill = 1
 
     # 结果展示
-    print("琪亚娜赢的概率为%f，一共赢了%d场"
-          % (KianaWin / (KianaWin + DurandalWin), KianaWin))
+    print("琪亚娜赢的概率为%f" % (KianaWin / (KianaWin + DurandalWin)))
+    print("一共赢了%d场" %(KianaWin))
 
-    print("幽兰黛尔&屎蛋赢的概率为%f 一共赢了%d场"
-          % (DurandalWin / (KianaWin + DurandalWin), DurandalWin))
+    print("幽兰黛尔&屎蛋赢的概率为%f" % (DurandalWin / (KianaWin + DurandalWin)))
+    print("一共赢了%d场" %(DurandalWin))
 
     print("投票琪亚娜赔率期望")
     print((KianaWin / (KianaWin + DurandalWin))*1.9)

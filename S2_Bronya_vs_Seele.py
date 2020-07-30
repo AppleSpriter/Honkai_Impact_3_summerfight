@@ -15,7 +15,7 @@ if __name__ == "__main__":
     BronyaWin = 0
     SeeleWin = 0
 
-    for index in range(0, 1000000):
+    for index in range(0, 100000):
         while(Bronyalife > 0 and Seelelife > 0):
             # 希儿先手攻击，先变黑希0再变白希1
             # 拜托了另一个我
@@ -42,12 +42,12 @@ if __name__ == "__main__":
                 Bronyaskill = 1
             else:
                 Bronyaskill += 1
+                # 普攻
+                Seelelife = Seelelife - (Bronyaatk - Seeledef)
                 # 天使重构
                 if random.randint(1, 100) <= 25:
                     Seelelife = Seelelife - 4 * max((12 - Seeledef), 0)
-                else:
-                    Seelelife = Seelelife - \
-                                        (Bronyaatk - Seeledef)
+
 
         # 判定输赢，速度慢的后手方放前面先判断
         if Bronyalife <= 0:
