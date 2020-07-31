@@ -1,25 +1,25 @@
 # Honkai_Impact_3_summerfight
-这是崩坏3夏日大作战的一个作战模拟，已于B站发布[av58904076](https://www.bilibili.com/video/av58904076/)
+这是崩坏3夏日大作战的一个作战模拟，第一期已于B站发布[av58904076](https://www.bilibili.com/video/av58904076/)
 
-一年过去了，加上夏日偶像武斗会的内容
+一年过去了，加上夏日偶像武斗会的内容，第二期夏日偶像武斗会指引☞[BV17v411v7ey](https://www.bilibili.com/video/BV17v411v7ey/)
 
 ## 人物姓名简称
 
-中文 | 英文
----- | -----
-琪亚娜 | Kiana
-芽衣 | Mei
-布洛妮娅 | Bronya
-姬子 | Himeko
-八重樱&卡莲 | SakuraKallen 
-希儿 | Seele
-丽塔 | Lita
-浮华 | Fuhua
-罗莎莉亚&莉莉娅 | RosaliaLilia 
-莉莉娅 | Lilia
-渡鸦 | Ravens 
-幽兰黛尔&屎蛋 | Durandal 
- | 
+| 中文            | 英文         |
+| --------------- | ------------ |
+| 琪亚娜          | Kiana        |
+| 芽衣            | Mei          |
+| 布洛妮娅        | Bronya       |
+| 姬子            | Himeko       |
+| 八重樱&卡莲     | SakuraKallen |
+| 希儿            | Seele        |
+| 丽塔            | Lita         |
+| 浮华            | Fuhua        |
+| 罗莎莉亚&莉莉娅 | RosaliaLilia |
+| 德丽莎          | Theresa      |
+| 渡鸦            | Ravens       |
+| 幽兰黛尔&史丹   | Durandal     |
+|                 |              |
 
 ## 发现逻辑问题
 如果你发现某段战斗中有逻辑问题，欢迎直接提交issue或者私信B站：NewGame八神光
